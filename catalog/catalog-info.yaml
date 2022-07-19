@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: spring-sql-jpa
+  links:
+    - url: https://github.com/dforbes-pivotal/spring-sql-jpa
+      title: Repository for spring-sql-jpa
+      icon: https://d1fto35gcfffzn.cloudfront.net/tanzu/tanzu-bug.svg
   description: Spring Boot SQL JPA
   tags:
     - app-accelerator
