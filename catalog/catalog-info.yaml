@@ -12,7 +12,7 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sql-jpa'
-    backstage.io/techdocs-ref: https://github.com/dforbes-pivotal/spring-sql-jpa
+    backstage.io/techdocs-ref: url:https://github.com/dforbes-pivotal/spring-sql-jpa
 spec:
   type: service
   lifecycle: experimental
