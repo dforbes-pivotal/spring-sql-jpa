@@ -3,10 +3,6 @@ kind: Component
 metadata:
   name: spring-sql-jpa
   description: Spring Boot SQL JPA
-  links:
-    - url: https://github.com/dforbes-pivotal/spring-sql-jpa
-      title: Repository for spring-sql-jpa
-      icon: https://d1fto35gcfffzn.cloudfront.net/tanzu/tanzu-bug.svg
   tags:
     - app-accelerator
     - java
@@ -16,6 +12,7 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sql-jpa'
+    backstage.io/techdocs-ref: https://github.com/dforbes-pivotal/spring-sql-jpa
 spec:
   type: service
   lifecycle: experimental
